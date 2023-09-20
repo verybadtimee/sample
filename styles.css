@@ -1,0 +1,29 @@
+html, body{
+    background-color: #ce8a24;
+    margin: 0;
+    padding: 0;
+}
+
+.centered-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid-container {
+    border: 5px solid #000000;
+    padding: 20px;
+    background-color: #65299c;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+}
+
+.grid-item {
+    border: 2px solid #ffffff;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
